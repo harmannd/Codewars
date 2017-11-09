@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36c0ccee-a196-4cc1-ade8-e1a0928b1b34" name="Default" comment="" />
+    <list default="true" id="36c0ccee-a196-4cc1-ade8-e1a0928b1b34" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Dashatize/__init__.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,14 +16,12 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="test_dashatize.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Dashatize/test_dashatize.py">
+          <file leaf-file-name="iqtest.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/IQTest/iqtest.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#29#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="30" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -29,11 +30,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="test_dashatize.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Dashatize/test_dashatize.py">
+          <file leaf-file-name="test_iqtest.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/IQTest/test_iqtest.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -52,6 +53,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -68,14 +72,21 @@
         <option value="$PROJECT_DIR$/Dashatize/dashatize.py" />
         <option value="$PROJECT_DIR$/JosephusSurvivor/test_josephus_survivor.py" />
         <option value="$PROJECT_DIR$/JosephusSurvivor/josephus_survivor.py" />
+        <option value="$PROJECT_DIR$/CaesarCipher/cipher.py" />
+        <option value="$PROJECT_DIR$/CaesarCipher/test_cipher.py" />
+        <option value="$PROJECT_DIR$/IQTest/iqtest.py" />
+        <option value="$PROJECT_DIR$/IQTest/test_iqtest.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2234" />
-    <option name="y" value="-19" />
+    <option name="x" value="290" />
+    <option name="y" value="-23" />
     <option name="width" value="1400" />
     <option name="height" value="999" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -92,6 +103,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,19 +120,12 @@
             <path>
               <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codewars" type="462c0819:PsiDirectoryNode" />
-              <item name="GoodvEvil" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codewars" type="462c0819:PsiDirectoryNode" />
-              <item name="Pagination" type="462c0819:PsiDirectoryNode" />
+              <item name="IQTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_josephus_survivor.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_iqtest.py">
     <configuration name="Unittests in test_dashatize.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,6 +175,20 @@
       <module name="Codewars" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/GoodvEvil/test_goodVsEvil.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_iqtest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IQTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Codewars" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/IQTest/test_iqtest.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Unittests in test_josephus_survivor.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -199,37 +219,20 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/Pagination/test_paginationHelper.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="test_solver" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Codewars" />
-      <option name="SCRIPT_NAME" value="C:\Users\Derek\PycharmProjects\Codewars\Test\test_solver.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test_solver" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_paginationHelper.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_goodVsEvil.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_dashatize.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_josephus_survivor.py" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_paginationHelper.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_goodVsEvil.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_dashatize.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_josephus_survivor.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_iqtest.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_josephus_survivor.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_dashatize.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_goodVsEvil.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_paginationHelper.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test_solver" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_iqtest.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_josephus_survivor.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_dashatize.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_goodVsEvil.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_paginationHelper.py" />
       </list>
     </recent_temporary>
   </component>
@@ -250,29 +253,29 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_josephus_survivor_py - 2017.10.26 at 12h 25m 37s.xml">
-      <configuration name="Unittests in test_josephus_survivor.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_iqtest_py - 2017.11.09 at 10h 19m 38s.xml">
+      <configuration name="Unittests in test_iqtest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_josephus_survivor_py - 2017.10.26 at 12h 25m 38s.xml">
-      <configuration name="Unittests in test_josephus_survivor.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_iqtest_py - 2017.11.09 at 10h 20m 21s.xml">
+      <configuration name="Unittests in test_iqtest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_josephus_survivor_py - 2017.10.26 at 12h 25m 51s.xml">
-      <configuration name="Unittests in test_josephus_survivor.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_iqtest_py - 2017.11.09 at 10h 48m 20s.xml">
+      <configuration name="Unittests in test_iqtest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_josephus_survivor_py - 2017.10.26 at 12h 26m 45s.xml">
-      <configuration name="Unittests in test_josephus_survivor.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_iqtest_py - 2017.11.09 at 10h 48m 59s.xml">
+      <configuration name="Unittests in test_iqtest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_josephus_survivor_py - 2017.10.26 at 12h 26m 50s.xml">
-      <configuration name="Unittests in test_josephus_survivor.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_iqtest_py - 2017.11.09 at 10h 56m 45s.xml">
+      <configuration name="Unittests in test_iqtest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_josephus_survivor_py - 2017.10.26 at 12h 27m 05s.xml">
-      <configuration name="Unittests in test_josephus_survivor.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_iqtest_py - 2017.11.09 at 11h 00m 55s.xml">
+      <configuration name="Unittests in test_iqtest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_josephus_survivor_py - 2017.10.26 at 12h 28m 48s.xml">
-      <configuration name="Unittests in test_josephus_survivor.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_iqtest_py - 2017.11.09 at 11h 01m 26s.xml">
+      <configuration name="Unittests in test_iqtest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_josephus_survivor_py - 2017.10.26 at 12h 28m 49s.xml">
-      <configuration name="Unittests in test_josephus_survivor.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_iqtest_py - 2017.11.09 at 11h 03m 51s.xml">
+      <configuration name="Unittests in test_iqtest.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_josephus_survivor_py - 2017.10.26 at 12h 31m 10s.xml">
       <configuration name="Unittests in test_josephus_survivor.py" configurationId="tests" />
@@ -282,15 +285,15 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30972517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -332,12 +335,48 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/IQTest/iqtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dashatize/dashatize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IQTest/test_iqtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dashatize/test_dashatize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dashatize/test_dashatize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -348,7 +387,7 @@
         <state relative-caret-position="187">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -380,7 +419,7 @@
         <state relative-caret-position="187">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -483,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dashatize/dashatize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pagination/PaginationHelper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -506,10 +538,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JosephusSurvivor/test_josephus_survivor.py" />
     <entry file="file://$PROJECT_DIR$/JosephusSurvivor/josephus_survivor.py" />
+    <entry file="file://$PROJECT_DIR$/Dashatize/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Dashatize/dashatize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dashatize/test_dashatize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IQTest/iqtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IQTest/test_iqtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
