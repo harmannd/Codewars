@@ -15,11 +15,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="unique_order.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/UniqueOrder/unique_order.py">
+          <file leaf-file-name="readable_time.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/HumanReadableTime/readable_time.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+                <state relative-caret-position="340">
+                  <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -29,11 +29,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="test_unique_in_order.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/UniqueOrder/test_unique_in_order.py">
+          <file leaf-file-name="test_make_readable.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/HumanReadableTime/test_make_readable.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -77,10 +77,12 @@
         <option value="$PROJECT_DIR$/IQTest/test_iqtest.py" />
         <option value="$PROJECT_DIR$/UniqueOrder/test_unique_in_order.py" />
         <option value="$PROJECT_DIR$/UniqueOrder/unique_order.py" />
+        <option value="$PROJECT_DIR$/HumanReadableTime/test_make_readable.py" />
+        <option value="$PROJECT_DIR$/HumanReadableTime/readable_time.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="290" />
     <option name="y" value="-23" />
     <option name="width" value="1400" />
@@ -111,11 +113,6 @@
               <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codewars" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codewars" type="462c0819:PsiDirectoryNode" />
-              <item name="UniqueOrder" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -144,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_unique_in_order.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_make_readable.py">
     <configuration name="Unittests in test_dashatize.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,20 +154,6 @@
       <module name="Codewars" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/Dashatize/test_dashatize.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Unittests in test_goodVsEvil.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GoodvEvil" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Codewars" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/GoodvEvil/test_goodVsEvil.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Unittests in test_iqtest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -201,6 +184,20 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/JosephusSurvivor/test_josephus_survivor.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="Unittests in test_make_readable.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HumanReadableTime" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Codewars" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/HumanReadableTime/test_make_readable.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="Unittests in test_unique_in_order.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,19 +213,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_goodVsEvil.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_dashatize.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_josephus_survivor.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_iqtest.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_unique_in_order.py" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_dashatize.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_josephus_survivor.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_iqtest.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_unique_in_order.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_make_readable.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_unique_in_order.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_iqtest.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_josephus_survivor.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_dashatize.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_goodVsEvil.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_make_readable.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_unique_in_order.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_iqtest.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_josephus_survivor.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_dashatize.py" />
       </list>
     </recent_temporary>
   </component>
@@ -249,17 +246,17 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_unique_in_order_py - 2017.11.11 at 13h 44m 46s.xml">
-      <configuration name="Unittests in test_unique_in_order.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_make_readable_py - 2017.11.12 at 10h 12m 00s.xml">
+      <configuration name="Unittests in test_make_readable.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_unique_in_order_py - 2017.11.11 at 13h 44m 57s.xml">
-      <configuration name="Unittests in test_unique_in_order.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_make_readable_py - 2017.11.12 at 10h 24m 15s.xml">
+      <configuration name="Unittests in test_make_readable.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_unique_in_order_py - 2017.11.11 at 13h 46m 45s.xml">
-      <configuration name="Unittests in test_unique_in_order.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_make_readable_py - 2017.11.12 at 10h 25m 02s.xml">
+      <configuration name="Unittests in test_make_readable.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_unique_in_order_py - 2017.11.11 at 13h 47m 50s.xml">
-      <configuration name="Unittests in test_unique_in_order.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_make_readable_py - 2017.11.12 at 10h 29m 11s.xml">
+      <configuration name="Unittests in test_make_readable.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_unique_in_order_py - 2017.11.11 at 13h 47m 52s.xml">
       <configuration name="Unittests in test_unique_in_order.py" configurationId="tests" />
@@ -281,7 +278,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -331,15 +328,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IQTest/iqtest.py">
+    <entry file="file://$PROJECT_DIR$/UniqueOrder/unique_order.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IQTest/test_iqtest.py">
+    <entry file="file://$PROJECT_DIR$/UniqueOrder/test_unique_in_order.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -352,8 +349,21 @@
     <entry file="file://$PROJECT_DIR$/IQTest/iqtest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IQTest/test_iqtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IQTest/iqtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -368,9 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,9 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -585,7 +588,25 @@
     <entry file="file://$PROJECT_DIR$/UniqueOrder/unique_order.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HumanReadableTime/test_make_readable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HumanReadableTime/readable_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding />
         </state>
       </provider>
