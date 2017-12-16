@@ -14,12 +14,12 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="string_tops.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/StringTops/string_tops.py">
+        <leaf>
+          <file leaf-file-name="chmod.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Chmod/chmod.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+                <state relative-caret-position="306">
+                  <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -29,11 +29,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="test_tops.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/StringTops/test_tops.py">
+          <file leaf-file-name="test_chmod_calculator.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Chmod/test_chmod_calculator.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <state relative-caret-position="85">
+                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -104,6 +104,10 @@
         <option value="$PROJECT_DIR$/HackerRank/hacker_rank.py" />
         <option value="$PROJECT_DIR$/StringTops/test_tops.py" />
         <option value="$PROJECT_DIR$/StringTops/string_tops.py" />
+        <option value="$PROJECT_DIR$/SeventhSon/seventh_son.py" />
+        <option value="$PROJECT_DIR$/SeventhSon/test_find_seventh_sons_of_seventh_sons.py" />
+        <option value="$PROJECT_DIR$/Chmod/test_chmod_calculator.py" />
+        <option value="$PROJECT_DIR$/Chmod/chmod.py" />
       </list>
     </option>
   </component>
@@ -131,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,16 +143,10 @@
               <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codewars" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codewars" type="462c0819:PsiDirectoryNode" />
-              <item name="StringTops" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -172,19 +171,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_tops.TestTops.test_tops">
-    <configuration name="Unittests for test_delete_nth.TestDelete_nth" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator">
+    <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeleteAfterNOccurances" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chmod" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Codewars" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_delete_nth.TestDelete_nth&quot;" />
+      <option name="_new_target" value="&quot;test_chmod_calculator.TestChmod_calculator&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeventhSon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Codewars" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for test_oddNumbers.TestOddNumbers" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -229,34 +242,20 @@
       <option name="_new_target" value="&quot;test_tops.TestTops.test_tops&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in test_queue_time.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SupermarketQueue" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Codewars" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/SupermarketQueue/test_queue_time.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_queue_time.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_delete_nth.TestDelete_nth" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers.test_oddNumbers" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_tops.TestTops.test_tops" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers.test_oddNumbers" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_tops.TestTops.test_tops" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_tops.TestTops.test_tops" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers.test_oddNumbers" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_delete_nth.TestDelete_nth" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_queue_time.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_tops.TestTops.test_tops" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers.test_oddNumbers" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -277,35 +276,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_oddNumbers_TestOddNumbers_test_oddNumbers - 2017.12.06 at 10h 16m 04s.xml">
-      <configuration name="Unittests for test_oddNumbers.TestOddNumbers.test_oddNumbers" configurationId="tests" />
+    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 10h 12m 03s.xml">
+      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_tops_TestTops_test_tops - 2017.12.11 at 10h 45m 31s.xml">
-      <configuration name="Unittests for test_tops.TestTops.test_tops" configurationId="tests" />
+    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 10h 17m 36s.xml">
+      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_tops_TestTops_test_tops - 2017.12.11 at 11h 03m 13s.xml">
-      <configuration name="Unittests for test_tops.TestTops.test_tops" configurationId="tests" />
+    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 10h 17m 54s.xml">
+      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_tops_TestTops_test_tops - 2017.12.11 at 11h 05m 02s.xml">
-      <configuration name="Unittests for test_tops.TestTops.test_tops" configurationId="tests" />
+    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 10h 17m 55s.xml">
+      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_tops_TestTops_test_tops - 2017.12.11 at 11h 06m 47s.xml">
-      <configuration name="Unittests for test_tops.TestTops.test_tops" configurationId="tests" />
+    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 10h 22m 49s.xml">
+      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_tops_TestTops_test_tops - 2017.12.11 at 11h 10m 27s.xml">
-      <configuration name="Unittests for test_tops.TestTops.test_tops" configurationId="tests" />
+    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 11h 09m 16s.xml">
+      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_tops_TestTops_test_tops - 2017.12.11 at 11h 11m 37s.xml">
-      <configuration name="Unittests for test_tops.TestTops.test_tops" configurationId="tests" />
+    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 11h 13m 41s.xml">
+      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_tops_TestTops_test_tops - 2017.12.11 at 11h 11m 38s.xml">
-      <configuration name="Unittests for test_tops.TestTops.test_tops" configurationId="tests" />
+    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 11h 13m 43s.xml">
+      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_tops_TestTops_test_tops - 2017.12.11 at 11h 11m 55s.xml">
-      <configuration name="Unittests for test_tops.TestTops.test_tops" configurationId="tests" />
+    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 11h 13m 59s.xml">
+      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_tops_TestTops_test_tops - 2017.12.11 at 11h 13m 31s.xml">
-      <configuration name="Unittests for test_tops.TestTops.test_tops" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_seventh_sons_of_seventh_sons_TestFind_seventh_sons_of_seventh_sons_test_find_seventh_sons_of_seventh_sons - 2017.12.13 at 10h 19m 50s.xml">
+      <configuration name="Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -407,6 +406,31 @@
           <line>10</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SeventhSon/test_find_seventh_sons_of_seventh_sons.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SeventhSon/test_find_seventh_sons_of_seventh_sons.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SeventhSon/test_find_seventh_sons_of_seventh_sons.py</url>
+          <line>194</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SeventhSon/test_find_seventh_sons_of_seventh_sons.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SeventhSon/seventh_son.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -415,35 +439,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="79" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pagination/test_paginationHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pagination/PaginationHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pagination/test_paginationHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReplaceAlphabet.py" />
-    <entry file="file://$PROJECT_DIR$/Test/test_solver.py" />
-    <entry file="file://$PROJECT_DIR$/ReplaceAlphabet.py" />
     <entry file="file://$PROJECT_DIR$/Test/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Test/Solver.py" />
     <entry file="file://$PROJECT_DIR$/Test/test_solver.py" />
@@ -534,13 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/unittest/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/unittest/runner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -559,13 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/unittestpy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="280" column="0" lean-forward="false" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -693,43 +679,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HackerRank/hacker_rank.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HackerRank/test_oddNumbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HackerRank/hacker_rank.py" />
+    <entry file="file://$PROJECT_DIR$/HackerRank/test_oddNumbers.py" />
     <entry file="file://$PROJECT_DIR$/StringTops/test_tops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StringTops/string_tops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/unittestpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeventhSon/test_find_seventh_sons_of_seventh_sons.py" />
+    <entry file="file://$PROJECT_DIR$/SeventhSon/seventh_son.py" />
+    <entry file="file://$PROJECT_DIR$/Chmod/test_chmod_calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chmod/chmod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding />
         </state>
       </provider>
