@@ -14,13 +14,15 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf>
-          <file leaf-file-name="chmod.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Chmod/chmod.py">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="permutations.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Permutations/permutations.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-                  <folding />
+                <state relative-caret-position="221">
+                  <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+                  <folding>
+                    <element signature="e#0#59#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -28,9 +30,9 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="test_chmod_calculator.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Chmod/test_chmod_calculator.py">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="test_ssc_forperm.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Permutations/test_ssc_forperm.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="85">
                   <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -108,10 +110,12 @@
         <option value="$PROJECT_DIR$/SeventhSon/test_find_seventh_sons_of_seventh_sons.py" />
         <option value="$PROJECT_DIR$/Chmod/test_chmod_calculator.py" />
         <option value="$PROJECT_DIR$/Chmod/chmod.py" />
+        <option value="$PROJECT_DIR$/Permutations/test_ssc_forperm.py" />
+        <option value="$PROJECT_DIR$/Permutations/permutations.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="258" />
     <option name="y" value="-30" />
     <option name="width" value="1400" />
@@ -171,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator">
+  <component name="RunManager" selected="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm">
     <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,20 +204,6 @@
       <option name="_new_target" value="&quot;test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_oddNumbers.TestOddNumbers" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Codewars" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_oddNumbers.TestOddNumbers&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
     <configuration name="Unittests for test_oddNumbers.TestOddNumbers.test_oddNumbers" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,6 +216,20 @@
       <module name="Codewars" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_oddNumbers.TestOddNumbers.test_oddNumbers&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Permutations" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Codewars" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ssc_forperm.TestSsc_forperm&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for test_tops.TestTops.test_tops" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -243,19 +247,19 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers.test_oddNumbers" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_tops.TestTops.test_tops" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers.test_oddNumbers" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_tops.TestTops.test_tops" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_tops.TestTops.test_tops" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers.test_oddNumbers" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_tops.TestTops.test_tops" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers.test_oddNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -276,39 +280,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 10h 12m 03s.xml">
-      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
+    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 09h 53m 08s.xml">
+      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 10h 17m 36s.xml">
-      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
+    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 09h 57m 55s.xml">
+      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 10h 17m 54s.xml">
-      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
+    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 10m 09s.xml">
+      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 10h 17m 55s.xml">
-      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
+    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 10m 49s.xml">
+      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 10h 22m 49s.xml">
-      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
+    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 14m 00s.xml">
+      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 11h 09m 16s.xml">
-      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
+    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 15m 06s.xml">
+      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 11h 13m 41s.xml">
-      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
+    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 15m 37s.xml">
+      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 11h 13m 43s.xml">
-      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
+    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 17m 07s.xml">
+      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_chmod_calculator_TestChmod_calculator - 2017.12.16 at 11h 13m 59s.xml">
-      <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" configurationId="tests" />
+    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 17m 44s.xml">
+      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_find_seventh_sons_of_seventh_sons_TestFind_seventh_sons_of_seventh_sons_test_find_seventh_sons_of_seventh_sons - 2017.12.13 at 10h 19m 50s.xml">
-      <configuration name="Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" configurationId="tests" />
+    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 18m 17s.xml">
+      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -439,13 +443,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="79" />
+      <option name="time" value="86" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Test/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Test/Solver.py" />
     <entry file="file://$PROJECT_DIR$/Test/test_solver.py" />
     <entry file="file://$PROJECT_DIR$/GoodvEvil/goodVsEvil.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -716,14 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -738,7 +732,7 @@
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -746,8 +740,36 @@
     <entry file="file://$PROJECT_DIR$/Chmod/chmod.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="329" column="0" lean-forward="false" selection-start-line="329" selection-start-column="0" selection-end-line="329" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Permutations/test_ssc_forperm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Permutations/permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
