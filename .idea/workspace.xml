@@ -14,15 +14,13 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="permutations.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Permutations/permutations.py">
+        <leaf>
+          <file leaf-file-name="salemans_travel.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/SalesmansTravel/salemans_travel.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-                  <folding>
-                    <element signature="e#0#59#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="238">
+                  <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -30,12 +28,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="test_ssc_forperm.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Permutations/test_ssc_forperm.py">
+        <leaf>
+          <file leaf-file-name="test_travel.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/SalesmansTravel/test_travel.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                <state relative-caret-position="323">
+                  <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -112,10 +110,13 @@
         <option value="$PROJECT_DIR$/Chmod/chmod.py" />
         <option value="$PROJECT_DIR$/Permutations/test_ssc_forperm.py" />
         <option value="$PROJECT_DIR$/Permutations/permutations.py" />
+        <option value="$PROJECT_DIR$/ValidDateRegex/validDateRegex.py" />
+        <option value="$PROJECT_DIR$/SalesmansTravel/test_travel.py" />
+        <option value="$PROJECT_DIR$/SalesmansTravel/salemans_travel.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="258" />
     <option name="y" value="-30" />
     <option name="width" value="1400" />
@@ -139,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -147,11 +149,15 @@
               <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codewars" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codewars" type="462c0819:PsiDirectoryNode" />
+              <item name="SalesmansTravel" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm">
+  <component name="RunManager" selected="Python tests.Unittests for test_travel.TestTravel">
     <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,20 +208,6 @@
       <module name="Codewars" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for test_oddNumbers.TestOddNumbers.test_oddNumbers" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Codewars" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_oddNumbers.TestOddNumbers.test_oddNumbers&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -246,20 +238,34 @@
       <option name="_new_target" value="&quot;test_tops.TestTops.test_tops&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="Unittests for test_travel.TestTravel" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SalesmansTravel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Codewars" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_travel.TestTravel&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers.test_oddNumbers" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_tops.TestTops.test_tops" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_tops.TestTops.test_tops" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_travel.TestTravel" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_tops.TestTops.test_tops" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_oddNumbers.TestOddNumbers.test_oddNumbers" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_travel.TestTravel" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_tops.TestTops.test_tops" />
       </list>
     </recent_temporary>
   </component>
@@ -280,51 +286,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 09h 53m 08s.xml">
-      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
+    <history-entry file="Unittests_for_test_travel_TestTravel - 2018.01.08 at 11h 06m 14s.xml">
+      <configuration name="Unittests for test_travel.TestTravel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 09h 57m 55s.xml">
-      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
+    <history-entry file="Unittests_for_test_travel_TestTravel - 2018.01.08 at 11h 06m 15s.xml">
+      <configuration name="Unittests for test_travel.TestTravel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 10m 09s.xml">
-      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
+    <history-entry file="Unittests_for_test_travel_TestTravel - 2018.01.08 at 11h 07m 01s.xml">
+      <configuration name="Unittests for test_travel.TestTravel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 10m 49s.xml">
-      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
+    <history-entry file="Unittests_for_test_travel_TestTravel - 2018.01.08 at 11h 07m 33s.xml">
+      <configuration name="Unittests for test_travel.TestTravel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 14m 00s.xml">
-      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
+    <history-entry file="Unittests_for_test_travel_TestTravel - 2018.01.08 at 11h 09m 17s.xml">
+      <configuration name="Unittests for test_travel.TestTravel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 15m 06s.xml">
-      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
+    <history-entry file="Unittests_for_test_travel_TestTravel - 2018.01.08 at 11h 10m 12s.xml">
+      <configuration name="Unittests for test_travel.TestTravel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 15m 37s.xml">
-      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
+    <history-entry file="Unittests_for_test_travel_TestTravel - 2018.01.08 at 11h 11m 00s.xml">
+      <configuration name="Unittests for test_travel.TestTravel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 17m 07s.xml">
-      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
+    <history-entry file="Unittests_for_test_travel_TestTravel - 2018.01.08 at 11h 11m 01s.xml">
+      <configuration name="Unittests for test_travel.TestTravel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 17m 44s.xml">
-      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
+    <history-entry file="Unittests_for_test_travel_TestTravel - 2018.01.08 at 11h 12m 00s.xml">
+      <configuration name="Unittests for test_travel.TestTravel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ssc_forperm_TestSsc_forperm - 2017.12.22 at 10h 18m 17s.xml">
-      <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" configurationId="tests" />
+    <history-entry file="Unittests_for_test_travel_TestTravel - 2018.01.08 at 11h 12m 26s.xml">
+      <configuration name="Unittests for test_travel.TestTravel" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30972517" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -435,6 +441,11 @@
           <line>3</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SalesmansTravel/salemans_travel.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -443,26 +454,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="86" />
+      <option name="time" value="97" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Test/test_solver.py" />
-    <entry file="file://$PROJECT_DIR$/GoodvEvil/goodVsEvil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoodvEvil/test_goodVsEvil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pagination/PaginationHelper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -731,9 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,23 +745,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Permutations/permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Permutations/test_ssc_forperm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValidDateRegex/validDateRegex.py" />
+    <entry file="file://$PROJECT_DIR$/SalesmansTravel/test_travel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Permutations/permutations.py">
+    <entry file="file://$PROJECT_DIR$/SalesmansTravel/salemans_travel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
