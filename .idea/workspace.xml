@@ -15,11 +15,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="integer_depth.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/IntegerDepth/integer_depth.py">
+          <file leaf-file-name="palindrome_game.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/PalindromeGame/palindrome_game.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="12" />
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -29,11 +29,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="test_compute_depth.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/IntegerDepth/test_compute_depth.py">
+          <file leaf-file-name="test_solve.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/PalindromeGame/test_solve.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+                <state relative-caret-position="391">
+                  <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="38" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -63,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Solver.py" />
-        <option value="$PROJECT_DIR$/test_solver.py" />
         <option value="$PROJECT_DIR$/PaginationHelper/PaginationHelper.py" />
         <option value="$PROJECT_DIR$/Test/test_solver.py" />
         <option value="$PROJECT_DIR$/Pagination/PaginationHelper.py" />
@@ -114,6 +112,8 @@
         <option value="$PROJECT_DIR$/SalesmansTravel/salemans_travel.py" />
         <option value="$PROJECT_DIR$/IntegerDepth/test_compute_depth.py" />
         <option value="$PROJECT_DIR$/IntegerDepth/integer_depth.py" />
+        <option value="$PROJECT_DIR$/PalindromeGame/test_solve.py" />
+        <option value="$PROJECT_DIR$/PalindromeGame/palindrome_game.py" />
       </list>
     </option>
   </component>
@@ -141,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,7 +153,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -177,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_compute_depth.TestCompute_depth">
+  <component name="RunManager" selected="Python tests.Unittests for test_solve.TestSolve">
     <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,18 +206,18 @@
       <option name="_new_target" value="&quot;test_compute_depth.TestCompute_depth&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_solve.TestSolve" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeventhSon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PalindromeGame" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Codewars" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons&quot;" />
+      <option name="_new_target" value="&quot;test_solve.TestSolve&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -249,19 +249,19 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_travel.TestTravel" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_compute_depth.TestCompute_depth" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_travel.TestTravel" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_compute_depth.TestCompute_depth" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_compute_depth.TestCompute_depth" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_travel.TestTravel" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_seventh_sons_of_seventh_sons.TestFind_seventh_sons_of_seventh_sons.test_find_seventh_sons_of_seventh_sons" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_compute_depth.TestCompute_depth" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_travel.TestTravel" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -282,29 +282,29 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_compute_depth_TestCompute_depth - 2018.01.13 at 14h 08m 53s.xml">
-      <configuration name="Unittests for test_compute_depth.TestCompute_depth" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 10h 55m 14s.xml">
+      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_compute_depth_TestCompute_depth - 2018.01.13 at 14h 17m 17s.xml">
-      <configuration name="Unittests for test_compute_depth.TestCompute_depth" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 11h 00m 59s.xml">
+      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_compute_depth_TestCompute_depth - 2018.01.13 at 14h 17m 36s.xml">
-      <configuration name="Unittests for test_compute_depth.TestCompute_depth" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 11h 07m 44s.xml">
+      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_compute_depth_TestCompute_depth - 2018.01.13 at 14h 20m 02s.xml">
-      <configuration name="Unittests for test_compute_depth.TestCompute_depth" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 11h 08m 54s.xml">
+      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_compute_depth_TestCompute_depth - 2018.01.13 at 14h 20m 03s.xml">
-      <configuration name="Unittests for test_compute_depth.TestCompute_depth" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 11h 09m 11s.xml">
+      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_compute_depth_TestCompute_depth - 2018.01.13 at 14h 20m 38s.xml">
-      <configuration name="Unittests for test_compute_depth.TestCompute_depth" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 11h 10m 45s.xml">
+      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_travel_TestTravel - 2018.01.08 at 11h 11m 00s.xml">
-      <configuration name="Unittests for test_travel.TestTravel" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 11h 11m 57s.xml">
+      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_travel_TestTravel - 2018.01.08 at 11h 11m 01s.xml">
-      <configuration name="Unittests for test_travel.TestTravel" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 11h 11m 58s.xml">
+      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_test_travel_TestTravel - 2018.01.08 at 11h 12m 00s.xml">
       <configuration name="Unittests for test_travel.TestTravel" configurationId="tests" />
@@ -450,13 +450,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="98" />
+      <option name="time" value="101" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JosephusSurvivor/test_josephus_survivor.py" />
-    <entry file="file://$PROJECT_DIR$/JosephusSurvivor/josephus_survivor.py" />
     <entry file="file://$PROJECT_DIR$/Dashatize/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Dashatize/dashatize.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -746,9 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -763,17 +758,35 @@
     <entry file="file://$PROJECT_DIR$/IntegerDepth/test_compute_depth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IntegerDepth/integer_depth.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PalindromeGame/test_solve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PalindromeGame/palindrome_game.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="12" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="18" />
           <folding />
         </state>
       </provider>
