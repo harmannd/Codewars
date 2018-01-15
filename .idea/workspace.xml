@@ -15,11 +15,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="palindrome_game.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PalindromeGame/palindrome_game.py">
+          <file leaf-file-name="fuel_usage.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/FuelUsage/fuel_usage.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="18" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -29,14 +29,24 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="test_solve.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PalindromeGame/test_solve.py">
+          <file leaf-file-name="test_total_kilometers.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/FuelUsage/test_total_kilometers.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="38" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="case.py" pinned="false" current-in-tab="false">
+            <entry file="file://C:/Python27/Lib/unittest/case.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -63,8 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PaginationHelper/PaginationHelper.py" />
-        <option value="$PROJECT_DIR$/Test/test_solver.py" />
         <option value="$PROJECT_DIR$/Pagination/PaginationHelper.py" />
         <option value="$PROJECT_DIR$/Pagination/test_paginationHelper.py" />
         <option value="$PROJECT_DIR$/GoodvEvil/test_goodVsEvil.py" />
@@ -114,6 +122,8 @@
         <option value="$PROJECT_DIR$/IntegerDepth/integer_depth.py" />
         <option value="$PROJECT_DIR$/PalindromeGame/test_solve.py" />
         <option value="$PROJECT_DIR$/PalindromeGame/palindrome_game.py" />
+        <option value="$PROJECT_DIR$/FuelUsage/test_total_kilometers.py" />
+        <option value="$PROJECT_DIR$/FuelUsage/fuel_usage.py" />
       </list>
     </option>
   </component>
@@ -141,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,6 +163,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,21 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_solve.TestSolve">
-    <configuration name="Unittests for test_chmod_calculator.TestChmod_calculator" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chmod" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Codewars" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_chmod_calculator.TestChmod_calculator&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for test_total_kilometers.TestTotal_kilometers">
     <configuration name="Unittests for test_compute_depth.TestCompute_depth" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,6 +230,20 @@
       <option name="_new_target" value="&quot;test_ssc_forperm.TestSsc_forperm&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FuelUsage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Codewars" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_total_kilometers.TestTotal_kilometers&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <configuration name="Unittests for test_travel.TestTravel" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,19 +259,19 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_travel.TestTravel" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_compute_depth.TestCompute_depth" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_travel.TestTravel" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_compute_depth.TestCompute_depth" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_total_kilometers.TestTotal_kilometers" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_compute_depth.TestCompute_depth" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_travel.TestTravel" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_chmod_calculator.TestChmod_calculator" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_total_kilometers.TestTotal_kilometers" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_compute_depth.TestCompute_depth" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_travel.TestTravel" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
       </list>
     </recent_temporary>
   </component>
@@ -282,35 +292,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 10h 55m 14s.xml">
-      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
+    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 41m 47s.xml">
+      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 11h 00m 59s.xml">
-      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
+    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 42m 49s.xml">
+      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 11h 07m 44s.xml">
-      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
+    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 43m 42s.xml">
+      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 11h 08m 54s.xml">
-      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
+    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 44m 10s.xml">
+      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 11h 09m 11s.xml">
-      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
+    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 44m 45s.xml">
+      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 11h 10m 45s.xml">
-      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
+    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 45m 07s.xml">
+      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 11h 11m 57s.xml">
-      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
+    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 45m 08s.xml">
+      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.14 at 11h 11m 58s.xml">
-      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
+    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 45m 27s.xml">
+      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_travel_TestTravel - 2018.01.08 at 11h 12m 00s.xml">
-      <configuration name="Unittests for test_travel.TestTravel" configurationId="tests" />
+    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 46m 12s.xml">
+      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_travel_TestTravel - 2018.01.08 at 11h 12m 26s.xml">
-      <configuration name="Unittests for test_travel.TestTravel" configurationId="tests" />
+    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 47m 15s.xml">
+      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -442,6 +452,11 @@
           <line>16</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FuelUsage/test_total_kilometers.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -450,19 +465,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="101" />
+      <option name="time" value="106" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dashatize/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Dashatize/dashatize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dashatize/test_dashatize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -687,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/unittest/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -714,14 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="329" column="0" lean-forward="false" selection-start-line="329" selection-start-column="0" selection-end-line="329" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,9 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,15 +766,49 @@
         <state relative-caret-position="391">
           <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="38" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PalindromeGame/palindrome_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="170">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FuelUsage/test_total_kilometers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FuelUsage/fuel_usage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
       </provider>
