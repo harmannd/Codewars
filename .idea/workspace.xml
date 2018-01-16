@@ -15,11 +15,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="fuel_usage.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/FuelUsage/fuel_usage.py">
+          <file leaf-file-name="snail_path.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Snail/snail_path.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+                <state relative-caret-position="0">
+                  <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -29,24 +29,14 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="test_total_kilometers.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/FuelUsage/test_total_kilometers.py">
+          <file leaf-file-name="test_snail.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Snail/test_snail.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="case.py" pinned="false" current-in-tab="false">
-            <entry file="file://C:/Python27/Lib/unittest/case.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -73,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Pagination/PaginationHelper.py" />
-        <option value="$PROJECT_DIR$/Pagination/test_paginationHelper.py" />
         <option value="$PROJECT_DIR$/GoodvEvil/test_goodVsEvil.py" />
         <option value="$PROJECT_DIR$/GoodvEvil/goodVsEvil.py" />
         <option value="$PROJECT_DIR$/Dashatize/test_dashatize.py" />
@@ -124,6 +112,8 @@
         <option value="$PROJECT_DIR$/PalindromeGame/palindrome_game.py" />
         <option value="$PROJECT_DIR$/FuelUsage/test_total_kilometers.py" />
         <option value="$PROJECT_DIR$/FuelUsage/fuel_usage.py" />
+        <option value="$PROJECT_DIR$/Snail/test_snail.py" />
+        <option value="$PROJECT_DIR$/Snail/snail_path.py" />
       </list>
     </option>
   </component>
@@ -187,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_total_kilometers.TestTotal_kilometers">
+  <component name="RunManager" selected="Python tests.Unittests in test_snail.py">
     <configuration name="Unittests for test_compute_depth.TestCompute_depth" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,20 +204,6 @@
       <module name="Codewars" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_solve.TestSolve&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for test_ssc_forperm.TestSsc_forperm" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Permutations" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Codewars" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ssc_forperm.TestSsc_forperm&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -258,20 +234,34 @@
       <option name="_new_target" value="&quot;test_travel.TestTravel&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="Unittests in test_snail.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Snail" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Codewars" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Snail/test_snail.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_travel.TestTravel" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_compute_depth.TestCompute_depth" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_total_kilometers.TestTotal_kilometers" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_travel.TestTravel" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_compute_depth.TestCompute_depth" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_total_kilometers.TestTotal_kilometers" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_snail.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_total_kilometers.TestTotal_kilometers" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_compute_depth.TestCompute_depth" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_travel.TestTravel" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_ssc_forperm.TestSsc_forperm" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_snail.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_total_kilometers.TestTotal_kilometers" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_compute_depth.TestCompute_depth" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_travel.TestTravel" />
       </list>
     </recent_temporary>
   </component>
@@ -292,35 +282,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 41m 47s.xml">
-      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
+    <history-entry file="Unittests_in_test_snail_py - 2018.01.16 at 13h 17m 34s.xml">
+      <configuration name="Unittests in test_snail.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 42m 49s.xml">
-      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
+    <history-entry file="Unittests_in_test_snail_py - 2018.01.16 at 13h 18m 38s.xml">
+      <configuration name="Unittests in test_snail.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 43m 42s.xml">
-      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
+    <history-entry file="Unittests_in_test_snail_py - 2018.01.16 at 13h 19m 16s.xml">
+      <configuration name="Unittests in test_snail.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 44m 10s.xml">
-      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
+    <history-entry file="Unittests_in_test_snail_py - 2018.01.16 at 13h 19m 17s.xml">
+      <configuration name="Unittests in test_snail.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 44m 45s.xml">
-      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
+    <history-entry file="Unittests_in_test_snail_py - 2018.01.16 at 13h 20m 18s.xml">
+      <configuration name="Unittests in test_snail.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 45m 07s.xml">
-      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
+    <history-entry file="Unittests_in_test_snail_py - 2018.01.16 at 13h 21m 28s.xml">
+      <configuration name="Unittests in test_snail.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 45m 08s.xml">
-      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
+    <history-entry file="Unittests_in_test_snail_py - 2018.01.16 at 13h 21m 42s.xml">
+      <configuration name="Unittests in test_snail.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 45m 27s.xml">
-      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
+    <history-entry file="Unittests_in_test_snail_py - 2018.01.16 at 13h 22m 30s.xml">
+      <configuration name="Unittests in test_snail.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 46m 12s.xml">
-      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
+    <history-entry file="Unittests_in_test_snail_py - 2018.01.16 at 13h 24m 06s.xml">
+      <configuration name="Unittests in test_snail.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_total_kilometers_TestTotal_kilometers - 2018.01.15 at 11h 47m 15s.xml">
-      <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" configurationId="tests" />
+    <history-entry file="Unittests_in_test_snail_py - 2018.01.16 at 13h 24m 36s.xml">
+      <configuration name="Unittests in test_snail.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -330,13 +320,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30972517" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -465,25 +455,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="106" />
+      <option name="time" value="122" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dashatize/test_dashatize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IQTest/iqtest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IQTest/test_iqtest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -551,13 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ValidParentheses/valid_parens.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -765,9 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,14 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -808,7 +765,41 @@
     <entry file="file://$PROJECT_DIR$/FuelUsage/fuel_usage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ValidParentheses/valid_parens.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Snail/test_snail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Snail/snail_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding />
         </state>
       </provider>
