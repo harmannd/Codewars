@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="36c0ccee-a196-4cc1-ade8-e1a0928b1b34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StringsMix/strings_mix.py" afterPath="$PROJECT_DIR$/StringsMix/strings_mix.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +16,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.4841169">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="strings_mix.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/StringsMix/strings_mix.py">
+          <file leaf-file-name="weight_for_weight.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/WeightForWeight/weight_for_weight.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+                <state relative-caret-position="306">
+                  <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -29,11 +30,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="test_mix.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/StringsMix/test_mix.py">
+          <file leaf-file-name="test_order_weight.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/WeightForWeight/test_order_weight.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="102">
-                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                  <caret line="6" column="77" lean-forward="false" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -63,8 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Dashatize/test_dashatize.py" />
-        <option value="$PROJECT_DIR$/Dashatize/dashatize.py" />
         <option value="$PROJECT_DIR$/JosephusSurvivor/test_josephus_survivor.py" />
         <option value="$PROJECT_DIR$/JosephusSurvivor/josephus_survivor.py" />
         <option value="$PROJECT_DIR$/CaesarCipher/cipher.py" />
@@ -114,6 +113,8 @@
         <option value="$PROJECT_DIR$/Snail/snail_path.py" />
         <option value="$PROJECT_DIR$/StringsMix/test_mix.py" />
         <option value="$PROJECT_DIR$/StringsMix/strings_mix.py" />
+        <option value="$PROJECT_DIR$/WeightForWeight/test_order_weight.py" />
+        <option value="$PROJECT_DIR$/WeightForWeight/weight_for_weight.py" />
       </list>
     </option>
   </component>
@@ -141,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,15 +149,11 @@
               <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codewars" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codewars" type="462c0819:PsiDirectoryNode" />
-              <item name="StringsMix" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -182,21 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_mix.TestMix">
-    <configuration name="Unittests for test_compute_depth.TestCompute_depth" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IntegerDepth" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Codewars" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_compute_depth.TestCompute_depth&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in test_order_weight.py">
     <configuration name="Unittests for test_mix.TestMix" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,6 +221,20 @@
       <option name="_new_target" value="&quot;test_total_kilometers.TestTotal_kilometers&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="Unittests in test_order_weight.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WeightForWeight" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Codewars" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/WeightForWeight/test_order_weight.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="Unittests in test_snail.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,19 +250,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_compute_depth.TestCompute_depth" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_total_kilometers.TestTotal_kilometers" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_snail.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_mix.TestMix" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_total_kilometers.TestTotal_kilometers" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_snail.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_mix.TestMix" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_order_weight.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_mix.TestMix" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_snail.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_total_kilometers.TestTotal_kilometers" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_compute_depth.TestCompute_depth" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_order_weight.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_mix.TestMix" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_snail.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_total_kilometers.TestTotal_kilometers" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
       </list>
     </recent_temporary>
   </component>
@@ -287,47 +283,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_mix_TestMix - 2018.01.17 at 12h 10m 53s.xml">
-      <configuration name="Unittests for test_mix.TestMix" configurationId="tests" />
+    <history-entry file="Unittests_in_test_order_weight_py - 2018.01.18 at 10h 57m 00s.xml">
+      <configuration name="Unittests in test_order_weight.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_mix_TestMix - 2018.01.17 at 12h 13m 07s.xml">
-      <configuration name="Unittests for test_mix.TestMix" configurationId="tests" />
+    <history-entry file="Unittests_in_test_order_weight_py - 2018.01.18 at 10h 57m 38s.xml">
+      <configuration name="Unittests in test_order_weight.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_mix_TestMix - 2018.01.17 at 12h 13m 40s.xml">
-      <configuration name="Unittests for test_mix.TestMix" configurationId="tests" />
+    <history-entry file="Unittests_in_test_order_weight_py - 2018.01.18 at 10h 58m 04s.xml">
+      <configuration name="Unittests in test_order_weight.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_mix_TestMix - 2018.01.17 at 12h 14m 52s.xml">
-      <configuration name="Unittests for test_mix.TestMix" configurationId="tests" />
+    <history-entry file="Unittests_in_test_order_weight_py - 2018.01.18 at 10h 58m 52s.xml">
+      <configuration name="Unittests in test_order_weight.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_mix_TestMix - 2018.01.17 at 12h 15m 20s.xml">
-      <configuration name="Unittests for test_mix.TestMix" configurationId="tests" />
+    <history-entry file="Unittests_in_test_order_weight_py - 2018.01.18 at 10h 59m 16s.xml">
+      <configuration name="Unittests in test_order_weight.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_mix_TestMix - 2018.01.17 at 12h 17m 22s.xml">
-      <configuration name="Unittests for test_mix.TestMix" configurationId="tests" />
+    <history-entry file="Unittests_in_test_order_weight_py - 2018.01.18 at 10h 59m 38s.xml">
+      <configuration name="Unittests in test_order_weight.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_mix_TestMix - 2018.01.17 at 12h 17m 23s.xml">
-      <configuration name="Unittests for test_mix.TestMix" configurationId="tests" />
+    <history-entry file="Unittests_in_test_order_weight_py - 2018.01.18 at 11h 02m 07s.xml">
+      <configuration name="Unittests in test_order_weight.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_mix_TestMix - 2018.01.17 at 12h 17m 46s.xml">
-      <configuration name="Unittests for test_mix.TestMix" configurationId="tests" />
+    <history-entry file="Unittests_in_test_order_weight_py - 2018.01.18 at 11h 02m 08s.xml">
+      <configuration name="Unittests in test_order_weight.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_mix_TestMix - 2018.01.17 at 12h 18m 51s.xml">
-      <configuration name="Unittests for test_mix.TestMix" configurationId="tests" />
+    <history-entry file="Unittests_in_test_order_weight_py - 2018.01.18 at 11h 02m 15s.xml">
+      <configuration name="Unittests in test_order_weight.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_mix_TestMix - 2018.01.17 at 12h 24m 52s.xml">
-      <configuration name="Unittests for test_mix.TestMix" configurationId="tests" />
+    <history-entry file="Unittests_in_test_order_weight_py - 2018.01.18 at 11h 02m 37s.xml">
+      <configuration name="Unittests in test_order_weight.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30972517" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -460,25 +455,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="137" />
+      <option name="time" value="140" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UniqueOrder/unique_order.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HumanReadableTime/readable_time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HumanReadableTime/test_make_readable.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -771,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,9 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -798,15 +775,33 @@
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StringsMix/strings_mix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="79">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeightForWeight/test_order_weight.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="77" lean-forward="false" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeightForWeight/weight_for_weight.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding />
         </state>
       </provider>

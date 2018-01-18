@@ -5,7 +5,7 @@ class mixer:
         self.letter = letter
         self.owner = owner
         self.count = 1
-        
+
 
 def mix(s1, s2):
     list1 = countLetters(s1, "1")
