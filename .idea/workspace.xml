@@ -15,11 +15,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.4841169">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="mexican_wave.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/MexicanWave/mexican_wave.py">
+          <file leaf-file-name="roman_numerals.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/RomanNumerals/roman_numerals.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+                <state relative-caret-position="306">
+                  <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -29,11 +29,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="test_wave.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/MexicanWave/test_wave.py">
+          <file leaf-file-name="test_solution.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/RomanNumerals/test_solution.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -63,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CaesarCipher/cipher.py" />
-        <option value="$PROJECT_DIR$/CaesarCipher/test_cipher.py" />
         <option value="$PROJECT_DIR$/IQTest/iqtest.py" />
         <option value="$PROJECT_DIR$/IQTest/test_iqtest.py" />
         <option value="$PROJECT_DIR$/UniqueOrder/test_unique_in_order.py" />
@@ -114,6 +112,8 @@
         <option value="$PROJECT_DIR$/WeightForWeight/weight_for_weight.py" />
         <option value="$PROJECT_DIR$/MexicanWave/test_wave.py" />
         <option value="$PROJECT_DIR$/MexicanWave/mexican_wave.py" />
+        <option value="$PROJECT_DIR$/RomanNumerals/test_solution.py" />
+        <option value="$PROJECT_DIR$/RomanNumerals/roman_numerals.py" />
       </list>
     </option>
   </component>
@@ -141,6 +141,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,8 +154,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_wave.TestWave.test_wave">
+  <component name="RunManager" selected="Python tests.Unittests for test_solution.TestSolution.test_solution">
     <configuration name="Unittests for test_mix.TestMix" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,18 +192,18 @@
       <option name="_new_target" value="&quot;test_mix.TestMix&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_total_kilometers.TestTotal_kilometers" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_solution.TestSolution.test_solution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FuelUsage" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RomanNumerals" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Codewars" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_total_kilometers.TestTotal_kilometers&quot;" />
+      <option name="_new_target" value="&quot;test_solution.TestSolution.test_solution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for test_wave.TestWave.test_wave" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -249,19 +249,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_total_kilometers.TestTotal_kilometers" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_snail.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_mix.TestMix" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_order_weight.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_wave.TestWave.test_wave" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_snail.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_mix.TestMix" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_order_weight.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_wave.TestWave.test_wave" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestSolution.test_solution" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_wave.TestWave.test_wave" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_order_weight.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_mix.TestMix" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_snail.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_total_kilometers.TestTotal_kilometers" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestSolution.test_solution" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_wave.TestWave.test_wave" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_order_weight.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_mix.TestMix" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_snail.py" />
       </list>
     </recent_temporary>
   </component>
@@ -282,35 +282,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_wave_TestWave_test_wave - 2018.01.21 at 12h 16m 55s.xml">
-      <configuration name="Unittests for test_wave.TestWave.test_wave" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solution_TestSolution_test_solution - 2018.01.22 at 09h 43m 12s.xml">
+      <configuration name="Unittests for test_solution.TestSolution.test_solution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_wave_TestWave_test_wave - 2018.01.21 at 12h 19m 54s.xml">
-      <configuration name="Unittests for test_wave.TestWave.test_wave" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solution_TestSolution_test_solution - 2018.01.22 at 09h 43m 13s.xml">
+      <configuration name="Unittests for test_solution.TestSolution.test_solution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_wave_TestWave_test_wave - 2018.01.21 at 12h 20m 50s.xml">
-      <configuration name="Unittests for test_wave.TestWave.test_wave" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solution_TestSolution_test_solution - 2018.01.22 at 09h 43m 42s.xml">
+      <configuration name="Unittests for test_solution.TestSolution.test_solution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_wave_TestWave_test_wave - 2018.01.21 at 12h 21m 25s.xml">
-      <configuration name="Unittests for test_wave.TestWave.test_wave" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solution_TestSolution_test_solution - 2018.01.22 at 09h 48m 38s.xml">
+      <configuration name="Unittests for test_solution.TestSolution.test_solution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_wave_TestWave_test_wave - 2018.01.21 at 12h 21m 51s.xml">
-      <configuration name="Unittests for test_wave.TestWave.test_wave" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solution_TestSolution_test_solution - 2018.01.22 at 09h 50m 23s.xml">
+      <configuration name="Unittests for test_solution.TestSolution.test_solution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_wave_TestWave_test_wave - 2018.01.21 at 12h 26m 13s.xml">
-      <configuration name="Unittests for test_wave.TestWave.test_wave" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solution_TestSolution_test_solution - 2018.01.22 at 09h 51m 26s.xml">
+      <configuration name="Unittests for test_solution.TestSolution.test_solution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_wave_TestWave_test_wave - 2018.01.21 at 12h 26m 14s.xml">
-      <configuration name="Unittests for test_wave.TestWave.test_wave" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solution_TestSolution_test_solution - 2018.01.22 at 09h 52m 04s.xml">
+      <configuration name="Unittests for test_solution.TestSolution.test_solution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_wave_TestWave_test_wave - 2018.01.21 at 12h 27m 07s.xml">
-      <configuration name="Unittests for test_wave.TestWave.test_wave" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solution_TestSolution_test_solution - 2018.01.22 at 09h 52m 06s.xml">
+      <configuration name="Unittests for test_solution.TestSolution.test_solution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_wave_TestWave_test_wave - 2018.01.21 at 12h 29m 17s.xml">
-      <configuration name="Unittests for test_wave.TestWave.test_wave" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solution_TestSolution_test_solution - 2018.01.22 at 09h 59m 13s.xml">
+      <configuration name="Unittests for test_solution.TestSolution.test_solution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_wave_TestWave_test_wave - 2018.01.21 at 12h 29m 33s.xml">
-      <configuration name="Unittests for test_wave.TestWave.test_wave" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solution_TestSolution_test_solution - 2018.01.22 at 09h 59m 46s.xml">
+      <configuration name="Unittests for test_solution.TestSolution.test_solution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -322,7 +322,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30972517" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -447,6 +447,11 @@
           <line>7</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RomanNumerals/test_solution.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -455,25 +460,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="141" />
+      <option name="time" value="155" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_unittest_runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/unittest/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DirectionsReduction/direction_reduction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -766,9 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="77" lean-forward="false" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,7 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,7 +780,7 @@
         <state relative-caret-position="102">
           <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -801,7 +788,25 @@
     <entry file="file://$PROJECT_DIR$/MexicanWave/mexican_wave.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RomanNumerals/test_solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RomanNumerals/roman_numerals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
       </provider>
