@@ -14,12 +14,12 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf>
-          <file leaf-file-name="multiples.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Multiples35/multiples.py">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="bit_counting.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/BitCounting/bit_counting.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -28,12 +28,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="test_solution.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Multiples35/test_solution.py">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="test_countBits.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/BitCounting/test_countBits.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="102">
-                  <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -63,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DirectionsReduction/test_dirReduc.py" />
-        <option value="$PROJECT_DIR$/DirectionsReduction/direction_reduction.py" />
         <option value="$PROJECT_DIR$/ValidParentheses/test_valid_parentheses.py" />
         <option value="$PROJECT_DIR$/ValidParentheses/valid_parens.py" />
         <option value="$PROJECT_DIR$/Anagrams/test_anagrams.py" />
@@ -114,6 +112,8 @@
         <option value="$PROJECT_DIR$/Rainfall/rainfall.py" />
         <option value="$PROJECT_DIR$/Multiples35/test_solution.py" />
         <option value="$PROJECT_DIR$/Multiples35/multiples.py" />
+        <option value="$PROJECT_DIR$/BitCounting/test_countBits.py" />
+        <option value="$PROJECT_DIR$/BitCounting/bit_counting.py" />
       </list>
     </option>
   </component>
@@ -141,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -149,21 +150,10 @@
               <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codewars" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codewars" type="462c0819:PsiDirectoryNode" />
-              <item name="Multiples35" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codewars" type="462c0819:PsiDirectoryNode" />
-              <item name="Snail" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_solution.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_countBits.py">
     <configuration name="Unittests for test_solution.TestSolution.test_solution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,18 +220,18 @@
       <option name="_new_target" value="&quot;test_wave.TestWave.test_wave&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in test_order_weight.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_countBits.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WeightForWeight" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BitCounting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Codewars" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/WeightForWeight/test_order_weight.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/BitCounting/test_countBits.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Unittests in test_solution.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -259,19 +249,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_order_weight.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_wave.TestWave.test_wave" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestSolution.test_solution" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_wave.TestWave.test_wave" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestSolution.test_solution" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_countBits.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestSolution.test_solution" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_wave.TestWave.test_wave" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_order_weight.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_countBits.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_solution.TestSolution.test_solution" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_wave.TestWave.test_wave" />
       </list>
     </recent_temporary>
   </component>
@@ -292,20 +282,20 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.23 at 11h 15m 39s.xml">
-      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
+    <history-entry file="Unittests_in_test_countBits_py - 2018.01.27 at 09h 59m 32s.xml">
+      <configuration name="Unittests in test_countBits.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.23 at 11h 17m 55s.xml">
-      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
+    <history-entry file="Unittests_in_test_countBits_py - 2018.01.27 at 10h 07m 54s.xml">
+      <configuration name="Unittests in test_countBits.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_solve_TestSolve - 2018.01.23 at 11h 18m 00s.xml">
-      <configuration name="Unittests for test_solve.TestSolve" configurationId="tests" />
+    <history-entry file="Unittests_in_test_countBits_py - 2018.01.27 at 10h 08m 57s.xml">
+      <configuration name="Unittests in test_countBits.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solution_py - 2018.01.24 at 09h 43m 53s.xml">
-      <configuration name="Unittests in test_solution.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_countBits_py - 2018.01.27 at 10h 10m 51s.xml">
+      <configuration name="Unittests in test_countBits.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solution_py - 2018.01.24 at 09h 44m 16s.xml">
-      <configuration name="Unittests in test_solution.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_countBits_py - 2018.01.27 at 10h 11m 04s.xml">
+      <configuration name="Unittests in test_countBits.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_solution_py - 2018.01.24 at 09h 44m 56s.xml">
       <configuration name="Unittests in test_solution.py" configurationId="tests" />
@@ -332,11 +322,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30972517" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -475,26 +465,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="166" />
+      <option name="time" value="168" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PigLatin/piglatin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CamelCase/camelcase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CamelCase/test_to_camel_case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -780,14 +755,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IntegerReduction/test_solve.py" />
     <entry file="file://$PROJECT_DIR$/IntegerReduction/integer_reduction.py" />
-    <entry file="file://$PROJECT_DIR$/Rainfall/test_variance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Rainfall/test_variance.py" />
     <entry file="file://$PROJECT_DIR$/Multiples35/test_solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -802,14 +770,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Multiples35/multiples.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BitCounting/test_countBits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BitCounting/bit_counting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="16" />
           <folding />
         </state>
       </provider>
