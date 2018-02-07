@@ -15,11 +15,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="non_even_substrings.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/NonEvenSubstrings/non_even_substrings.py">
+          <file leaf-file-name="simple_string.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/SimpleStringExpansion/simple_string.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="16" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -28,12 +28,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="test_sequence.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/NonEvenSubstrings/test_sequence.py">
+        <leaf>
+          <file leaf-file-name="test_solve.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/SimpleStringExpansion/test_solve.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -63,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CountSmileyFaces/countsmileyfaces.py" />
-        <option value="$PROJECT_DIR$/SupermarketQueue/test_queue_time.py" />
         <option value="$PROJECT_DIR$/SupermarketQueue/supermarket_queue.py" />
         <option value="$PROJECT_DIR$/DeleteAfterNOccurances/test_delete_nth.py" />
         <option value="$PROJECT_DIR$/DeleteAfterNOccurances/delete_occurances.py" />
@@ -114,6 +112,8 @@
         <option value="$PROJECT_DIR$/FlippingGame/flippinggame.py" />
         <option value="$PROJECT_DIR$/NonEvenSubstrings/test_sequence.py" />
         <option value="$PROJECT_DIR$/NonEvenSubstrings/non_even_substrings.py" />
+        <option value="$PROJECT_DIR$/SimpleStringExpansion/simple_string.py" />
+        <option value="$PROJECT_DIR$/SimpleStringExpansion/test_solve.py" />
       </list>
     </option>
   </component>
@@ -141,8 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,15 +148,12 @@
               <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codewars" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codewars" type="462c0819:PsiDirectoryNode" />
-              <item name="NonEvenSubstrings" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence">
+  <component name="RunManager" selected="Python tests.Unittests in test_solve.py (1)">
     <configuration name="Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,20 +190,6 @@
       <module name="Codewars" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;NonEvenSubstrings.test_sequence.TestSequence.test_sequence&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for test_solve.TestSolve" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IntegerReduction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Codewars" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_solve.TestSolve&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests in test_countBits.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -239,6 +220,20 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/Multiples35/test_solution.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="Unittests in test_solve.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SimpleStringExpansion" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Codewars" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/SimpleStringExpansion/test_solve.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="Unittests in test_solve.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,19 +249,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_countBits.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_countBits.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_countBits.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_countBits.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py" />
       </list>
     </recent_temporary>
   </component>
@@ -287,35 +282,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_NonEvenSubstrings_test_sequence_TestSequence_test_sequence - 2018.02.05 at 11h 18m 29s.xml">
-      <configuration name="Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" configurationId="tests" />
+    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 10h 55m 03s.xml">
+      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_NonEvenSubstrings_test_sequence_TestSequence_test_sequence - 2018.02.05 at 11h 18m 35s.xml">
-      <configuration name="Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" configurationId="tests" />
+    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 10h 58m 41s.xml">
+      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_NonEvenSubstrings_test_sequence_TestSequence_test_sequence - 2018.02.05 at 11h 19m 30s.xml">
-      <configuration name="Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" configurationId="tests" />
+    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 02m 22s.xml">
+      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_NonEvenSubstrings_test_sequence_TestSequence_test_sequence - 2018.02.05 at 11h 19m 31s.xml">
-      <configuration name="Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" configurationId="tests" />
+    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 03m 00s.xml">
+      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_NonEvenSubstrings_test_sequence_TestSequence_test_sequence - 2018.02.05 at 11h 19m 51s.xml">
-      <configuration name="Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" configurationId="tests" />
+    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 03m 55s.xml">
+      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_NonEvenSubstrings_test_sequence_TestSequence_test_sequence - 2018.02.05 at 11h 21m 20s.xml">
-      <configuration name="Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" configurationId="tests" />
+    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 04m 55s.xml">
+      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_NonEvenSubstrings_test_sequence_TestSequence_test_sequence - 2018.02.05 at 11h 21m 47s.xml">
-      <configuration name="Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" configurationId="tests" />
+    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 05m 00s.xml">
+      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_NonEvenSubstrings_test_sequence_TestSequence_test_sequence - 2018.02.05 at 11h 22m 29s.xml">
-      <configuration name="Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" configurationId="tests" />
+    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 05m 10s.xml">
+      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_NonEvenSubstrings_test_sequence_TestSequence_test_sequence - 2018.02.05 at 11h 22m 54s.xml">
-      <configuration name="Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" configurationId="tests" />
+    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 05m 15s.xml">
+      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_NonEvenSubstrings_test_sequence_TestSequence_test_sequence - 2018.02.05 at 11h 22m 56s.xml">
-      <configuration name="Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" configurationId="tests" />
+    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 08m 38s.xml">
+      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -327,7 +322,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30972517" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -450,28 +445,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="174" />
+      <option name="time" value="181" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PigLatin/test_pig_it.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SupermarketQueue/test_queue_time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SupermarketQueue/supermarket_queue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -702,14 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IntegerReduction/test_solve.py" />
     <entry file="file://$PROJECT_DIR$/IntegerReduction/integer_reduction.py" />
     <entry file="file://$PROJECT_DIR$/Rainfall/test_variance.py" />
@@ -774,9 +744,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NonEvenSubstrings/non_even_substrings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimpleStringExpansion/simple_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimpleStringExpansion/test_solve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
