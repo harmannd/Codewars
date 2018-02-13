@@ -14,12 +14,12 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="simple_string.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/SimpleStringExpansion/simple_string.py">
+        <leaf>
+          <file leaf-file-name="highest_scoring_word.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/HighestScoringWord/highest_scoring_word.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+                <state relative-caret-position="408">
+                  <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -29,11 +29,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="test_solve.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/SimpleStringExpansion/test_solve.py">
+          <file leaf-file-name="test_high.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/HighestScoringWord/test_high.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -55,6 +55,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>assert_equals</find>
+      <find>25395616</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -63,11 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SupermarketQueue/supermarket_queue.py" />
-        <option value="$PROJECT_DIR$/DeleteAfterNOccurances/test_delete_nth.py" />
-        <option value="$PROJECT_DIR$/DeleteAfterNOccurances/delete_occurances.py" />
-        <option value="$PROJECT_DIR$/HackerRank/test_oddNumbers.py" />
-        <option value="$PROJECT_DIR$/HackerRank/hacker_rank.py" />
         <option value="$PROJECT_DIR$/StringTops/test_tops.py" />
         <option value="$PROJECT_DIR$/StringTops/string_tops.py" />
         <option value="$PROJECT_DIR$/SeventhSon/seventh_son.py" />
@@ -114,12 +110,17 @@
         <option value="$PROJECT_DIR$/NonEvenSubstrings/non_even_substrings.py" />
         <option value="$PROJECT_DIR$/SimpleStringExpansion/simple_string.py" />
         <option value="$PROJECT_DIR$/SimpleStringExpansion/test_solve.py" />
+        <option value="$PROJECT_DIR$/Test/data.json" />
+        <option value="$PROJECT_DIR$/Test/test_solve.py" />
+        <option value="$PROJECT_DIR$/Test/mintelquiz.py" />
+        <option value="$PROJECT_DIR$/HighestScoringWord/test_high.py" />
+        <option value="$PROJECT_DIR$/HighestScoringWord/highest_scoring_word.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="258" />
-    <option name="y" value="-30" />
+    <option name="x" value="-46" />
+    <option name="y" value="-23" />
     <option name="width" value="1400" />
     <option name="height" value="999" />
   </component>
@@ -141,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,16 +150,20 @@
               <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codewars" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codewars" type="462c0819:PsiDirectoryNode" />
+              <item name="HighestScoringWord" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MintelTest" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -177,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_solve.py (1)">
+  <component name="RunManager" selected="Python tests.Unittests in test_high.py">
     <configuration name="Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,32 +198,32 @@
       <option name="_new_target" value="&quot;NonEvenSubstrings.test_sequence.TestSequence.test_sequence&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in test_countBits.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_solve.TestSolve.test_solve" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BitCounting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Codewars" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/BitCounting/test_countBits.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_solve.TestSolve.test_solve&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in test_solution.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_high.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Multiples35" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HighestScoringWord" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Codewars" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Multiples35/test_solution.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/HighestScoringWord/test_high.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Unittests in test_solve.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -249,19 +255,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_countBits.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve.test_solve" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_high.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_countBits.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_solution.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_high.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve.test_solve" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for NonEvenSubstrings.test_sequence.TestSequence.test_sequence" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py" />
       </list>
     </recent_temporary>
   </component>
@@ -282,35 +288,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 10h 55m 03s.xml">
-      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solve_TestSolve_test_solve - 2018.02.07 at 13h 57m 40s.xml">
+      <configuration name="Unittests for test_solve.TestSolve.test_solve" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 10h 58m 41s.xml">
-      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solve_TestSolve_test_solve - 2018.02.07 at 13h 58m 11s.xml">
+      <configuration name="Unittests for test_solve.TestSolve.test_solve" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 02m 22s.xml">
-      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solve_TestSolve_test_solve - 2018.02.07 at 13h 58m 24s.xml">
+      <configuration name="Unittests for test_solve.TestSolve.test_solve" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 03m 00s.xml">
-      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solve_TestSolve_test_solve - 2018.02.07 at 14h 03m 09s.xml">
+      <configuration name="Unittests for test_solve.TestSolve.test_solve" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 03m 55s.xml">
-      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solve_TestSolve_test_solve - 2018.02.07 at 14h 14m 56s.xml">
+      <configuration name="Unittests for test_solve.TestSolve.test_solve" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 04m 55s.xml">
-      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solve_TestSolve_test_solve - 2018.02.07 at 14h 15m 49s.xml">
+      <configuration name="Unittests for test_solve.TestSolve.test_solve" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 05m 00s.xml">
-      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
+    <history-entry file="Unittests_for_test_solve_TestSolve_test_solve - 2018.02.07 at 14h 18m 30s.xml">
+      <configuration name="Unittests for test_solve.TestSolve.test_solve" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 05m 10s.xml">
-      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_high_py - 2018.02.13 at 08h 59m 35s.xml">
+      <configuration name="Unittests in test_high.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 05m 15s.xml">
-      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_high_py - 2018.02.13 at 09h 15m 55s.xml">
+      <configuration name="Unittests in test_high.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_solve_py_(1) - 2018.02.07 at 11h 08m 38s.xml">
-      <configuration name="Unittests in test_solve.py (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_test_high_py - 2018.02.13 at 09h 16m 23s.xml">
+      <configuration name="Unittests in test_high.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -320,13 +326,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30972517" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -445,35 +451,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="181" />
+      <option name="time" value="207" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SupermarketQueue/supermarket_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeleteAfterNOccurances/test_delete_nth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeleteAfterNOccurances/delete_occurances.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HackerRank/hacker_rank.py" />
-    <entry file="file://$PROJECT_DIR$/HackerRank/test_oddNumbers.py" />
     <entry file="file://$PROJECT_DIR$/StringTops/test_tops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -736,9 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,15 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SimpleStringExpansion/simple_string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,9 +739,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimpleStringExpansion/simple_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/data.json" />
+    <entry file="file://$PROJECT_DIR$/Test/test_solve.py" />
+    <entry file="file://$PROJECT_DIR$/Test/mintelquiz.py" />
+    <entry file="file://$PROJECT_DIR$/HighestScoringWord/test_high.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HighestScoringWord/highest_scoring_word.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
