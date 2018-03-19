@@ -15,11 +15,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="clock_in_mirror.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ClockInMirror/clock_in_mirror.py">
+          <file leaf-file-name="easy_balance.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/EasyBalance/easy_balance.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+                <state relative-caret-position="306">
+                  <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
                   <folding />
                 </state>
               </provider>
@@ -28,25 +28,15 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="test_what_is_the_time.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ClockInMirror/test_what_is_the_time.py">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="test_balance.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/EasyBalance/test_balance.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                <state relative-caret-position="177">
+                  <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="case.py" pinned="false" current-in-tab="false">
-            <entry file="file://C:/Python27/Lib/unittest/case.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="172">
-                  <caret line="491" column="0" lean-forward="false" selection-start-line="491" selection-start-column="0" selection-end-line="491" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -74,8 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SeventhSon/test_find_seventh_sons_of_seventh_sons.py" />
-        <option value="$PROJECT_DIR$/Chmod/test_chmod_calculator.py" />
         <option value="$PROJECT_DIR$/Chmod/chmod.py" />
         <option value="$PROJECT_DIR$/Permutations/test_ssc_forperm.py" />
         <option value="$PROJECT_DIR$/Permutations/permutations.py" />
@@ -125,6 +113,8 @@
         <option value="$PROJECT_DIR$/HackerEarth/fizz_buzz.py" />
         <option value="$PROJECT_DIR$/ClockInMirror/test_what_is_the_time.py" />
         <option value="$PROJECT_DIR$/ClockInMirror/clock_in_mirror.py" />
+        <option value="$PROJECT_DIR$/EasyBalance/test_balance.py" />
+        <option value="$PROJECT_DIR$/EasyBalance/easy_balance.py" />
       </list>
     </option>
   </component>
@@ -168,7 +158,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MintelTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HackerEarth" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -188,19 +178,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_what_is_the_time.py">
-    <configuration name="Unittests for test_solve.TestSolve.test_solve" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_balance.TestBalance.test_balance1">
+    <configuration name="Unittests for test_balance.TestBalance.test_balance1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EasyBalance" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Codewars" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_solve.TestSolve.test_solve&quot;" />
+      <option name="_new_target" value="&quot;test_balance.TestBalance.test_balance1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_balance.TestBalance.test_balance2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EasyBalance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Codewars" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_balance.TestBalance.test_balance2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests in test_high.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -215,20 +219,6 @@
       <module name="Codewars" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/HighestScoringWord/test_high.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Unittests in test_solve.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SimpleStringExpansion" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Codewars" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/SimpleStringExpansion/test_solve.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Unittests in test_what_is_the_time.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -263,19 +253,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve.test_solve" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_high.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python.fizz_buzz" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_what_is_the_time.py" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_high.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.fizz_buzz" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_what_is_the_time.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_balance.TestBalance.test_balance2" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_balance.TestBalance.test_balance1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_what_is_the_time.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.fizz_buzz" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_high.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_solve.TestSolve.test_solve" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_solve.py (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_balance.TestBalance.test_balance1" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_balance.TestBalance.test_balance2" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_what_is_the_time.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.fizz_buzz" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_high.py" />
       </list>
     </recent_temporary>
   </component>
@@ -296,35 +286,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_what_is_the_time_py - 2018.03.06 at 09h 39m 04s.xml">
-      <configuration name="Unittests in test_what_is_the_time.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_balance_TestBalance_test_balance1 - 2018.03.19 at 14h 50m 01s.xml">
+      <configuration name="Unittests for test_balance.TestBalance.test_balance1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_what_is_the_time_py - 2018.03.06 at 09h 45m 27s.xml">
-      <configuration name="Unittests in test_what_is_the_time.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_balance_TestBalance_test_balance1 - 2018.03.19 at 14h 50m 56s.xml">
+      <configuration name="Unittests for test_balance.TestBalance.test_balance1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_what_is_the_time_py - 2018.03.06 at 09h 45m 29s.xml">
-      <configuration name="Unittests in test_what_is_the_time.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_balance_TestBalance_test_balance1 - 2018.03.19 at 14h 51m 25s.xml">
+      <configuration name="Unittests for test_balance.TestBalance.test_balance1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_what_is_the_time_py - 2018.03.06 at 09h 47m 49s.xml">
-      <configuration name="Unittests in test_what_is_the_time.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_balance_TestBalance_test_balance1 - 2018.03.19 at 14h 52m 31s.xml">
+      <configuration name="Unittests for test_balance.TestBalance.test_balance1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_what_is_the_time_py - 2018.03.06 at 09h 48m 27s.xml">
-      <configuration name="Unittests in test_what_is_the_time.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_balance_TestBalance_test_balance1 - 2018.03.19 at 14h 53m 52s.xml">
+      <configuration name="Unittests for test_balance.TestBalance.test_balance1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_what_is_the_time_py - 2018.03.06 at 09h 48m 48s.xml">
-      <configuration name="Unittests in test_what_is_the_time.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_balance_TestBalance_test_balance1 - 2018.03.19 at 14h 54m 05s.xml">
+      <configuration name="Unittests for test_balance.TestBalance.test_balance1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_what_is_the_time_py - 2018.03.06 at 09h 59m 40s.xml">
-      <configuration name="Unittests in test_what_is_the_time.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_balance_TestBalance_test_balance2 - 2018.03.19 at 14h 47m 30s.xml">
+      <configuration name="Unittests for test_balance.TestBalance.test_balance2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_what_is_the_time_py - 2018.03.06 at 10h 03m 08s.xml">
-      <configuration name="Unittests in test_what_is_the_time.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_balance_TestBalance_test_balance2 - 2018.03.19 at 14h 48m 17s.xml">
+      <configuration name="Unittests for test_balance.TestBalance.test_balance2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_what_is_the_time_py - 2018.03.06 at 10h 04m 13s.xml">
-      <configuration name="Unittests in test_what_is_the_time.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_balance_TestBalance_test_balance2 - 2018.03.19 at 14h 48m 35s.xml">
+      <configuration name="Unittests for test_balance.TestBalance.test_balance2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_what_is_the_time_py - 2018.03.06 at 10h 05m 03s.xml">
-      <configuration name="Unittests in test_what_is_the_time.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_balance_TestBalance_test_balance2 - 2018.03.19 at 14h 49m 53s.xml">
+      <configuration name="Unittests for test_balance.TestBalance.test_balance2" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -334,13 +324,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30972517" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30972517" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41226214" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -451,6 +441,11 @@
           <line>5</line>
           <option name="timeStamp" value="164" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/EasyBalance/test_balance.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -459,25 +454,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="219" />
+      <option name="time" value="232" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/unittestpy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SeventhSon/test_find_seventh_sons_of_seventh_sons.py" />
     <entry file="file://$PROJECT_DIR$/SeventhSon/seventh_son.py" />
     <entry file="file://$PROJECT_DIR$/Chmod/test_chmod_calculator.py">
@@ -746,36 +727,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HackerEarth/fizz_buzz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="491" column="0" lean-forward="false" selection-start-line="491" selection-start-column="0" selection-end-line="491" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HackerEarth/fizz_buzz.py" />
     <entry file="file://$PROJECT_DIR$/ClockInMirror/test_what_is_the_time.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ClockInMirror/clock_in_mirror.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyBalance/test_balance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyBalance/easy_balance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding />
         </state>
       </provider>
