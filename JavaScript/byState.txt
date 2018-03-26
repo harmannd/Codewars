@@ -1,0 +1,37 @@
+function byState(str) {
+  let states = {
+    'AZ': 'Arizona',
+    'CA': 'California',
+    'ID': 'Idaho',
+    'IN': 'Indiana',
+    'MA': 'Massachusetts',
+    'OK': 'Oklahoma',
+    'PA': 'Pennsylvania',
+    'VA': 'Virginia'
+  };
+  let dict = {};
+  let result = '';
+  let addresses = str.split('\n').sort();
+  
+  //Seperates the addresses into a dictionary of state/addresses
+  for(let i = 0; i < addresses.length; i++) {
+    let state = addresses[i].substring(addresses[i].length - 2, addresses[i].length)
+    
+    if(!dict[state]) {
+      dict[state] = states[state] + '\r\n..... ';
+    }
+    addresses[i] = addresses[i].replace(/,/g, '').substring(0, addresses[i].length - 4) + states[state];
+    dict[state] += addresses[i] + '\r\n..... ';
+  }
+  
+  //Creates the result string
+  for(state in states) {
+    if(dict[state]) {
+      if(result.length > 1) {
+        result += '\r\n ';
+      }
+      result += dict[state].substring(0, dict[state].length - 8);
+    }
+  }
+  return result;
+}
