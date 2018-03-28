@@ -1,0 +1,15 @@
+function fridayTheThirteenths(start, end = start) {
+    let result = '';
+    for (let i = start; i <= end; i++) {
+        for (let j = 0; j < 12; j++) {
+            let date = new Date(i, j, 13);
+            if (date.getDay() == 5) {
+            	 let day = date.getDate();
+                let month = date.getMonth() + 1;
+                let year = date.getFullYear();
+                result += month + '/' + day + '/' + year + ' ';
+            }
+        }
+    }
+    return result.trim();
+}
